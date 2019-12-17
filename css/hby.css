@@ -1,0 +1,305 @@
+.syhb_a a.syhb_btn {
+    display: block;
+    float: left;
+    width: 78px;
+    height: 70px;
+    background-position: -7px -2px;
+    background-repeat: no-repeat;
+}
+
+.syhb_b {
+    width: 200%;
+}
+
+.syhb_a .syhb_btn_zw,
+.syhb_b .syhb_btn_zw {
+    display: block;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+
+.syhb_b a.syhb_btn {
+    display: block;
+    float: left;
+    width: 71px;
+    height: 79px;
+    background-position: -92px -2px;
+    background-repeat: no-repeat;
+}
+
+.syhb_a a.syhb_btn:hover,
+.syhb_b a.syhb_btn:hover {
+    background-position-y: -93px;
+}
+
+.hby_list {
+    position: fixed;
+    display: block;
+    float: left;
+    top: -200px;
+    width: 71px;
+    height: 79px;
+    background-image: url(../img/syhb_pic.png);
+    background-position: -92px -93px;
+    background-repeat: no-repeat;
+    z-index: 999999;
+}
+
+.hby_content {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999999;
+}
+
+.b_hby_con {
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: #ba272f;
+    position: absolute;
+    top: 10vh;
+    left: 40%;
+    overflow: hidden;
+}
+
+.b_hby_form {
+    width: 360px;
+    height: 560px;
+    margin: 10px auto;
+    background: url(../img/hby_cbg.jpg) center center repeat-y;
+    background-size: 100%;
+    border-radius: 6px;
+}
+
+.hny_logo {
+    width: 139px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.hby_tit {
+    font-size: 20px;
+    line-height: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.hby_price {
+    width: 80%;
+    margin: 0 auto;
+    background: url(../img/hby_pricbg.png) center center no-repeat;
+    background-size: 100%;
+    font-size: 36px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+.hby_info {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    text-align: center;
+    padding-top: 34px;
+}
+
+.hby_form_l {
+    width: 320px;
+    margin: 0 auto;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    line-height: 32px;
+    background-color: #fff;
+    margin-top: 20px;
+    font-size: 0px;
+}
+
+.hby_ft {
+    display: inline-block;
+    width: 60px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    border-right: 1px solid #ccc;
+}
+
+.hby_form_l input {
+    width: 250px;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+    border: none;
+    text-indent: 1em;
+    font-size: 18px;
+}
+
+.hbyformbtn {
+    display: block;
+    width: 130px;
+    text-align: center;
+    background-color: #ff4e3a;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hby_stack {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: white;
+    line-height: 18px;
+    padding-top: 55px;
+}
+
+.hby_staco {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #ba272f;
+    line-height: 18px;
+    padding-top: 35px;
+}
+
+.hby_gai {
+    width: 100%;
+    margin-top: -440px;
+    position: relative;
+}
+
+.hby_gai img {
+    width: 100%;
+    height: 430px
+}
+
+.hby_kai {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: 215px;
+}
+
+.clos_hby {
+    position: fixed;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    text-align: center;
+    line-height: 30px;
+    top: 5vh;
+    left: 50%;
+    margin-left: -15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+    .b_hby_con {
+        /* width: 400px; */
+        width: 90%;
+        /* height: 650px; */
+        height: 460px;
+        border-radius: 10px;
+        background-color: #ba272f;
+        position: absolute;
+        top: 10vh;
+        left: 5%;
+        overflow: hidden;
+    }
+
+    .hby_form_l {
+        display: flex;
+        /* width: 320px; */
+        width: 80%;
+        margin: 0 auto;
+        height: 32px;
+        border-radius: 4px;
+        border: 1px solid #eee;
+        line-height: 32px;
+        background-color: #fff;
+        margin-top: 20px;
+        font-size: 0px;
+    }
+
+    .hby_form_l input {
+        display: inline-block;
+        width: 80%;
+        /* width: 250px; */
+        height: 24px;
+        line-height: 24px;
+        color: #666;
+        border: none;
+        text-indent: 1em;
+        font-size: 18px;
+    }
+
+    .hby_ft {
+        display: inline-block;
+        width: 20%;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+        border-right: 1px solid #ccc;
+    }
+
+    .b_hby_form {
+        /* width: 360px; */
+        width: 100%;
+        height: 430px;
+        margin: 10px auto;
+        background: url(../img/hby_cbg.jpg) center center repeat-y;
+        background-size: 100%;
+        border-radius: 6px;
+    }
+
+    .hby_gai {
+        width: 100%;
+        margin-top: -330px;
+        position: relative;
+    }
+
+    .hby_tit {
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+    }
+
+    .hby_info {
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .hby_gai img {
+        width: 100%;
+        height: 375px
+    }
+}
