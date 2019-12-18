@@ -50,12 +50,6 @@ $(".popout_xzzy_s3 li").click(function() {
 
 // 快商通传值方法
 var onKST = function(text, isMobile, cv, isForm = false) {
-    // if (typeof (cv == "undefined")) {
-    //     var name = document.getElementById("formName");
-    //     var tel = document.getElementById("formTel");
-    //     cv = "姓名：" + name.value + "<br/>联系电话：" + tel.value;
-    // }
-
     if (isForm) {
         var name = document.getElementById("formName");
         var tel = document.getElementById("formTel");
