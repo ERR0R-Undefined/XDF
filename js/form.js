@@ -49,8 +49,14 @@ $(".popout_xzzy_s3 li").click(function() {
 });
 
 // 快商通传值方法
-var onKST = function(text, isMobile, cv) {
-    if (typeof (cv == "undefined")) {
+var onKST = function(text, isMobile, cv, isForm = false) {
+    // if (typeof (cv == "undefined")) {
+    //     var name = document.getElementById("formName");
+    //     var tel = document.getElementById("formTel");
+    //     cv = "姓名：" + name.value + "<br/>联系电话：" + tel.value;
+    // }
+
+    if (isForm) {
         var name = document.getElementById("formName");
         var tel = document.getElementById("formTel");
         cv = "姓名：" + name.value + "<br/>联系电话：" + tel.value;
@@ -101,7 +107,7 @@ var onKST = function(text, isMobile, cv) {
 
 // 表单发送快商通方法
 var submitData = function() {
-    onKST("表单", true, "访客输入的信息");
+    onKST("表单", true, "访客输入的信息", true);
 };
 
 // 发送信息系统方法
@@ -143,8 +149,8 @@ $("#formBtn").click(function() {
 });
 
 // 快商通传值方法
-var onKST01 = function(text, isMobile, cv) {
-    if (typeof (cv == "undefined")) {
+var onKST01 = function(text, isMobile, cv, isForm = false) {
+    if (isForm) {
         var age = document.getElementById("popAge");
         var major = document.getElementById("popMajor");
         var gender = document.getElementById("popGender");
@@ -206,7 +212,7 @@ var onKST01 = function(text, isMobile, cv) {
 
 // 表单发送快商通方法
 var submitData01 = function() {
-    onKST01("表单", true, "访客输入的信息");
+    onKST01("表单", true, "访客输入的信息", true);
 };
 
 // 发送信息系统方法
